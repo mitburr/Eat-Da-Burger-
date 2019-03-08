@@ -14,7 +14,7 @@ specifically CRU functions on a server and affecting HTML using express, MySQL, 
 
 <h4> We can see here that the buttons and form add and change the boolean values in the database. </h4>
 
-![User flow example](Eat-Da-Burger-/public/assets/img/)
+![User flow example](public/assets/img/)
 
 <hr>
 
