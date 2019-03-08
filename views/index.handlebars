@@ -1,0 +1,26 @@
+<h1>Burger</h1>
+
+<h3>They probably won't be satisfying, but a man can dream. </h3>
+
+<ul id="undevoured">
+    {{#each burgers}}
+     {{#unless devoured}}
+        {{> burger-block devoured=false}}
+     {{/unless}}
+    {{/each}}
+</ul>
+
+<ul id = "devoured">
+  {{#each burgers}}
+    {{#if devoured}}
+      {{> burger-block devoured=true}}
+    {{/if}}
+  {{/each}}
+</ul>
+
+
+<form action="/api/burger" method="POST">
+    <textarea type="text" name="burger" id = "burger"></textarea>
+
+    <button type="submit">Submit</button>
+</form>

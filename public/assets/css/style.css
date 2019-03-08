@@ -1,0 +1,25 @@
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+  }
+
+  .label {
+    font-weight: bold;
+  }
+
+  #undevoured{
+    text-align: left;
+    float:left;
+    list-style: none;
+  }
+
+  #devoured{
+    text-align: right;
+    float: right;
+    list-style: none;
+  }
+
+  #burger{
+    background: #faebd7
+  }
