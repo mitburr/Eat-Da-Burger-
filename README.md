@@ -23,12 +23,7 @@ specifically CRU functions on a server and affecting HTML using express, MySQL, 
 
 <h2>Outstanding Issues</h2>
 
-<p>I could not deploy to heroku. I encounter the following error repeatedly when trying to connect the SQL database to the 
-JAWSDB. My ports are consistent, I'm certain there are no stray spaces, I'm certain these are the correct fields. I really 
-have no idea what the issue could be. 
-@ 12:15
-I went to test the connection to show the error I received and it worked perfectly fine... I'll finish deploying anyway and 
-hopefully that's worth credit. I have a working app demonstration from before this point on a localhost. </p>
+<p> The whole application could use some design work. It is functional but has pointy edges. Additionally, the project has no applicable value, and is simply a demonstration of skills </p>
 
 <hr>
 
@@ -36,4 +31,4 @@ hopefully that's worth credit. I have a working app demonstration from before th
 
 <h4> Options for this app are fairly limited as far as future directions. With Heroku deployment there isn't much more to add 
   besides unnecessary complexity. In theory "ingredients" could be added to each burger, and a delete function could be 
-  implemented as well. </h4>
+  implemented as well. Design elements could be added as well, and in theory this application could be adapted in many ways depending on a project's needs. </h4>
